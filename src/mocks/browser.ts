@@ -8,6 +8,5 @@ export async function startMockWorker() {
     onUnhandledRequest: 'bypass',
     quiet: false,
   });
-  // eslint-disable-next-line no-console
   console.info('[MSW] Mock API ready. Demo login: admin@mailinator.com / admin1233');
 }
